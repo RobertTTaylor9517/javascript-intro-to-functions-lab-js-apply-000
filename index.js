@@ -2,14 +2,14 @@ function shout(string) {
   return string.toUpperCase()
 }
 
-function whisper(){
+function whisper(string){
   return string.toLowerCase()
 }
 
-function logShout(){
-  
+function logShout(string){
+  console.log(string.toUpperCase())
 }
 
-function logWhisper(){
-  
+function logWhisper(string){
+  console.log(string.toLowerCase())
 }
